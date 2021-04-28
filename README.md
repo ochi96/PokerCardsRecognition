@@ -1,2 +1,2 @@
-# PokerCardsRecognition
-detecting numbers and signs on a card.
+# gaming_OCR
+detecting objects in card images
