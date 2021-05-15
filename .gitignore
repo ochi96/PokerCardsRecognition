@@ -1,3 +1,6 @@
 data/*
 templates/*
-board_info/*
+board_state_cards/*
+models/*
+player_states/*
+cards/*
