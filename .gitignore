@@ -1,6 +1,3 @@
 data/*
-templates/*
-board_state_cards/*
 models/*
-player_states/*
 cards/*
