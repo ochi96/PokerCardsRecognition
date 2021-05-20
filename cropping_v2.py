@@ -67,7 +67,7 @@ def player_states(filename):
     for i in range(9):
         start_row,start_col, end_row, end_col = coordinate_set[i]
         cropped = resized_image[start_row:end_row,start_col:end_col]
-        cv2.imwrite(("player_states/{}.png").format(i), cropped)
+        cv2.imwrite(("player_states/players/{}.png").format(i), cropped)
     pass
 
 def user_info(filename):
@@ -102,7 +102,7 @@ def user_info(filename):
 print('board_cards: ',board_info('data/Ad_Qd_3d_Qd_Td_9d_6c.png'))
 print('pot_value: ',ocr_pot_value('data/Ad_Qd_3d_Qd_Td_9d_6c.png'))
 player_states('data/Ad_Qd_3d_Qd_Td_9d_6c.png')
-user_info('player_states/0.png')
+user_info('player_states/players/0.png')
 
 
 
